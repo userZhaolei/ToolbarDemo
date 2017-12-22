@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@mipmap/ic_launcher"
+        android:title="查找"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@mipmap/ic_launcher"
+        android:title="分享"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="设置"
+        app:showAsAction="never"/>
+    <!-- showAsAction:never：就是点击三个点，显示的字体
+                      always：就是在toobar上面的小图标，
+     有的朋友就会问为什么会看见图片，你不是设置title了吗？
+     因为图片把title遮挡住了-->
+</menu>
